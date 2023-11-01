@@ -2,6 +2,9 @@
 body{
     background: linear-gradient(#001f54, #a4161a);
 }
+@media (max-width:800px){
+    body{background: #a4161a;}
+}
 h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 200;
