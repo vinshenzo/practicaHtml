@@ -1,0 +1,86 @@
+
+body{
+    background: linear-gradient(#001f54, #a4161a);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 85px;
+    text-align: center;
+    text-shadow: 2px 3px 4px red;
+    
+}
+div{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  
+}
+ul{
+    list-style-type: none;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+li{
+    float: left;
+    
+
+}
+li a{
+   display: block;
+   text-align: center;
+   text-decoration: none; 
+   color: antiquewhite;
+  padding: 20px;
+}
+
+img{
+    text-align: center;
+    border-radius: 10%;
+   margin: 55px;
+   box-shadow: 10px 10px 10px black;
+   cursor: pointer;
+  
+}
+
+a:hover{
+    background-color: rgba(50, 100, 80, 0.5);
+    border-radius: 15%;
+}
+
+
+.burguer1{
+width: 300px;
+height: 200px;
+}
+.burguer2{
+    width: 250px;
+    height: 250px;
+}
+
+img:hover{
+    box-shadow: 2px 10px 10px red;
+}
+
+.burguer3{
+width: 450px;
+height: 350px;
+}
+
+.burguer3:hover{
+    box-shadow: 10px 2px 2px #001f54;
+   
+}
+
+.burguer2:hover{
+box-shadow: 10px 2px 3px #001f54;
+}
+
+footer{
+    border-top: 5px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.nosotros{
+    float: right;
+}
